@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/image/abacus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(231, 225, 225, 0.1);
+  padding: 20px;
+  background-color: rgb(56, 56, 56);
+  opacity: 0.9;
+}
+
+h4 {
+  color: white;
+}
+
+.user {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px 0px 20px 0px;
+  outline: none;
+  text-align: right;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  gap: 10px;
+  margin: 0px 10px 10px 10px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: rgb(211, 97, 52);
+  width: 230px;
+}
+
+#delete {
+  background-color: rgb(211, 97, 52);
+}
